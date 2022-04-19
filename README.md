@@ -1,4 +1,3 @@
-<p align=center><img src=https://api.kindspeech.org/v1/badge></p>
 
 <p id=logo align=center><img width=555 src=https://github.com/c9fe/sirdb/raw/master/.readme-assets/sir-logo-rainbow.svg></p>
 
@@ -16,6 +15,7 @@ Like **SirDB**? You'll probably **love [ServeData](https://github.com/c9fe/serve
 - [features](#features)
   * [roadmap](#roadmap)
 - [get](#get)
+- [add git](#add-git--make-diffable)
 - [repository guide](#repository-guide)
 - [api](#api)
   * [config](#configroot-path)
@@ -30,6 +30,7 @@ Like **SirDB**? You'll probably **love [ServeData](https://github.com/c9fe/serve
   * [&lt;PageableTable&gt;.getPage](#pageabletablegetpagecursor-string-count-int-any)
 - [examples](#examples)
 - [related projects](#related-projects)
+- [contributing](#contributing)
 - [examples of database files and diffs](#example-of-database-files-and-diffs)
 - [notices](#notices)
 --------------------------------------
@@ -74,6 +75,11 @@ All in all this makes the database easy to understand and inspect. As well as ma
 ```console
 npm i --save sirdb
 ```
+
+# add git, make diffable.
+<p align=right><small><a href=#toc>Top</a></small></p>
+
+Just `cd` into your DB root path (the `root` path given to `config()`) and type `git init`. Or do it at any ancestor directory.
 
 # repository guide
 <p align=right><small><a href=#toc>Top</a></small></p>
@@ -765,6 +771,12 @@ index 0000000..bd356d0
 \ No newline at end of file
 ```
 <p align=right><small><a href=#toc>Top</a></small></p>
+
+# contributing
+
+Just open a PR. Before your PR can be considered tho, you'll need to sign the CLA. This will probably seem like a major issue for you, and a super annoying burden, especially because of the restrictive AGPL-3.0 license combined with the company-preferential CLA. I've tried to make it easy by utilizing CLA-assistant (which hooks into the PR process, and will guide you through signing) and templating my CLA off TimescaleDB's one, because I really like what they're doing in profitable open-source and I really fucking love their terms. 
+
+If you want to do major changes, that's great, but I recommend you check with me first (ideally over email: cris@dosycorp.com), so that you don't waste your time. 
 
 # notices
 

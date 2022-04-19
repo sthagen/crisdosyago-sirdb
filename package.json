@@ -1,11 +1,12 @@
 {
   "name": "sirdb",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "A very simple \"database\" on the file system for when you're too small to fail.",
   "main": "index.js",
   "types": "types/index.d.ts",
   "engines": {
-    "node": ">=12"
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
   },
   "scripts": {
     "test": "node -r esm test.js",
